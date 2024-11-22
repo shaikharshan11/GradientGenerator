@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling the buttons */
+  #myButton, #myButton2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #myButton {
+    background-color: #051937;
+    color: white;
+  }
+  
+  #myButton2 {
+    background-color: #008793;
+    color: white;
+  }
+  
+  /* Styling the code block */
+  .copyCode {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: monospace;
+  }
